@@ -18,6 +18,7 @@ const toDoList = document.querySelector("#todo-list")
 /*----------------------------- Event Listeners -----------------------------*/
 
 submitBtn.addEventListener('click', newItem)
+resetBtn.addEventListener('click', resetList)
 
 
 
@@ -31,5 +32,11 @@ function newItem(evt) {
   console.log(li)
   listInput.value = ''
   }
+}
+
+
+function resetList(evt) {
+  listInput.value = ''
+  toDoList.textContent = ''
 }
 
