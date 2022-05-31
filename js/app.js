@@ -32,6 +32,7 @@ function newItem(evt) {
   console.log(li)
   listInput.value = ''
   }
+  li.addEventListener('click', handleClick)
 }
 
 
@@ -40,3 +41,6 @@ function resetList(evt) {
   toDoList.textContent = ''
 }
 
+function handleClick(event) {
+  event.target.remove()
+}
