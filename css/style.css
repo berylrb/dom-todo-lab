@@ -1,0 +1,22 @@
+body {
+  background-color: pink;
+  color: palevioletred;
+  margin-top: 50px;
+  text-align: center;
+}
+
+
+div {
+  display: inline-block;
+  
+}
+
+#todo-list {
+  list-style-position: inside;
+}
+
+
+li {
+  text-align: center;
+  font-size: 20px;
+}
