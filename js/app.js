@@ -24,9 +24,11 @@ submitBtn.addEventListener('click', newItem)
 
 function newItem(evt) {
   const li = document.createElement('li')
+  if (listInput.value.length > 0) {
   li.textContent = listInput.value
   toDoList.appendChild(li)
   console.log(li)
   listInput.value = ''
+  }
 }
 
