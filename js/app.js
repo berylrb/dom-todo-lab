@@ -9,6 +9,7 @@
 /*------------------------ Cached Element References ------------------------*/
 const listInput = document.querySelector("#list-input")
 const submitBtn = document.querySelector("#submit-button")
+const resetBtn = document.querySelector("#reset-button")
 const toDoList = document.querySelector("#todo-list")
 
 
